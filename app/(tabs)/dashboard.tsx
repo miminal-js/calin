@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFDD8D',
   },
   text: {
-    color: '#fff',
+    color: '#3b2200',
     textAlign: 'center',
     fontFamily: "SourGummy_400Regular",
   },
