@@ -338,7 +338,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFDD8D',
   },
   text: {
-    color: '#fff',
+    color: '#3b2200',
     fontFamily: "SourGummy_400Regular",
   },
 
