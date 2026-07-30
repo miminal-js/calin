@@ -79,8 +79,8 @@ export default function Dashboard() {
 
     }, [])
   );
-  const todayIndex =
-    new Date().getDate() % affirmations.length;
+  
+  const todayIndex = Math.floor(new Date().getTime() - new Date(new Date().getFullYear(), 0, 0).getTime() / (1000 * 60 * 60 * 24)) % affirmations.length;
 
   const todayAffirmation =
     affirmations.length > 0
