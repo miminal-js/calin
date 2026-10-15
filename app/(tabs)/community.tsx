@@ -253,17 +253,17 @@ export default function CommunityScreen() {
               Welcome to the Câlin Community! Before you join...
             </Text>
 
-            <Text style={styles.text}>
+            <Text style={styles.text2}>
               Our community is a safe space for people to share their thoughts and feelings. We want to make sure that everyone feels welcome and supported here. Because of this, we have a few rules that we ask everyone to follow. Please read them carefully before you start posting.
               Because this space is meant to be safe and supportive, we ask that you take a short quiz before you can post. This quiz will help us make sure that everyone understands the rules and is committed to creating a positive environment.
             </Text>
             <Text style={styles.subtitle}>What can I post?</Text>
-            <Text style={styles.text}> In this community, you can post your thoughts, feelings, and experiences. You can also post questions and ask for advice. However, we do not allow posts that promote dieting, weight loss, or body shaming. We also do not allow posts that contain numbers, as this can be triggering for some people.
+            <Text style={styles.text2}> In this community, you can post your thoughts, feelings, and experiences. You can also post questions and ask for advice. However, we do not allow posts that promote dieting, weight loss, or body shaming. We also do not allow posts that contain numbers, as this can be triggering for some people.
               When posting, try to be kind and supportive. Everyone is going through their own struggles, and we want to create a space where people can feel safe and supported. If you see a post that goes against our rules, please report it to us. The report form can be accessed by clicking the red flag icon on one's post.
               Before posting, think to yourself: "Would I say this to a friend? Would I want to read this if I was struggling?" If the answer is no, then please reconsider posting it. We want to create a space where everyone feels welcome and supported, and we appreciate your help in making that happen.</Text>
             <Text style={styles.subtitle}>What happens if I break the rules?</Text>
-            <Text style={styles.text}>It's completely okay to make mistakes. If you are reported and we find that you've done something wrong as a first offense, we will intially email you with a warning reminding you of community guidelines. Your post will be removed. If this pattern continues, however, you may be banned from the community. We take the safety and well-being of our community members very seriously, and we want to make sure that everyone feels welcome and supported here. If you have any questions about the rules or the quiz, please reach out to us. We're happy to help!</Text>
-             <Text style={styles.text}>Thank you so much for reading our community guidelines. We hope that you enjoy your time here and that you find the support and kindness that you're looking for. We can't wait to see what you have to share!</Text>
+            <Text style={styles.text2}>It's completely okay to make mistakes. If you are reported and we find that you've done something wrong as a first offense, we will intially email you with a warning reminding you of community guidelines. Your post will be removed. If this pattern continues, however, you may be banned from the community. We take the safety and well-being of our community members very seriously, and we want to make sure that everyone feels welcome and supported here. If you have any questions about the rules or the quiz, please reach out to us. We're happy to help!</Text>
+             <Text style={styles.text2}>Thank you so much for reading our community guidelines. We hope that you enjoy your time here and that you find the support and kindness that you're looking for. We can't wait to see what you have to share!</Text>
             <Pressable
               onPress={() => setQuizStarted(true)}
               style={styles.button}
@@ -443,6 +443,10 @@ const styles = StyleSheet.create({
   },
   text: {
     color: '#fff',
+    fontFamily: "SourGummy_400Regular",
+  },
+  text2: {
+    color: '#3b2200',
     fontFamily: "SourGummy_400Regular",
   },
   input: {
